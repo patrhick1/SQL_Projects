@@ -17,7 +17,7 @@ CREATE TABLE raw_lay_offs(
     location VARCHAR(225) NULL,
     industry VARCHAR(225) NULL,
     total_laid_off INT NULL,
-    percentage_laid_off INT NULL,
+    percentage_laid_off VARCHAR(225) NULL,
     `date` VARCHAR(12) NULL, -- Set to VARCHAR since date was in wrong format from CSV
     stage VARCHAR(225) NULL,
     country VARCHAR(225) NULL,
@@ -45,7 +45,7 @@ CREATE TABLE cleaned_layoff(
     location VARCHAR(225) NULL,
     industry VARCHAR(225) NULL,
     total_laid_off INT NULL,
-    percentage_laid_off INT NULL,
+    percentage_laid_off VARCHAR(225) NULL,
     `date` VARCHAR(12) NULL, 
     stage VARCHAR(225) NULL,
     country VARCHAR(225) NULL,
